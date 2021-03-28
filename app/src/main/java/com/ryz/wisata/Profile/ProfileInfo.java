@@ -26,7 +26,7 @@ public class ProfileInfo extends AppCompatActivity {
         follow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.instagram.com/fadhiill__/";
+                String url = " ";
                 Intent a = new Intent(Intent.ACTION_VIEW);
                 a.setData(Uri.parse(url));
                 startActivity(a);
